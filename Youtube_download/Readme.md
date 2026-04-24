@@ -60,9 +60,11 @@ If not → downloads best quality (VP9/AV1) + audio → converts video stream to
 Merges video and audio into a single .mp4 file
 
 - Output format
+  
 Always produces .mp4 container
 
 - Notes
+  
 Cookies from Firefox are used to avoid age restrictions / rate limits (change browser in code if needed)
 
 Temporary files are automatically cleaned up after conversion
@@ -70,6 +72,7 @@ Temporary files are automatically cleaned up after conversion
 If target quality is not available at all, the script will abort without downloading
 
 - Limitations
+  
 Requires FFmpeg for conversion (direct H.264 downloads work without FFmpeg)
 
 Conversion takes time and CPU resources (depends on video length/resolution)
