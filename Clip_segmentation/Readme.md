@@ -39,15 +39,19 @@ Additionally, the following Python libraries are used:
 
 ## Usage
 1. Prepare Input Videos
+   
 Place your videos in a folder (e.g., /kaggle/input/datasets/mariaspasyuk/videos-part4/downloads4).
 Supported formats: .mp4, .avi, .mov, .mkv, .webm, .flv, .m4v.
 
-2. Run the Processing Function
+3. Run the Processing Function
+```bash
 process_videos_folder(
     input_folder="/path/to/videos",
     output_folder="/path/to/output",
     min_duration=20,   # minimum clip duration in seconds
     max_duration=35    # maximum clip duration in seconds
 )
-3. Download Results
+```
+4. Download Results
+
 The notebook automatically zips the output folder and provides a clickable download link.
