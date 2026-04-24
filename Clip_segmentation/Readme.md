@@ -26,7 +26,7 @@ The notebook installs the following dependency automatically:
 
 ```bash
 git+https://github.com/openai/whisper.git
-
+```
 Additionally, the following Python libraries are used:
 
 - moviepy
