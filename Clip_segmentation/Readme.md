@@ -1,4 +1,4 @@
-# Video Segmentation into Speech-Coherent Clips
+# Video segmentation into speech-coherent clips
 
 This notebook provides a solution for splitting long videos into shorter clips based on natural speech boundaries. Instead of cutting videos at arbitrary timestamps, it uses **speech transcription and segmentation** to ensure that each clip contains complete spoken sentences or thoughts, without cutting off a speaker mid-sentence.
 
