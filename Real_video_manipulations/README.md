@@ -1,4 +1,4 @@
-# Video Augmentation Pipeline
+# Video augmentation
 
 A tool for augmenting real videos. Applies realistic degradations — lighting changes, camera shake, compression artifacts, sensor noise — while preserving the original audio track.
 
