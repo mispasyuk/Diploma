@@ -1,7 +1,0 @@
-BLOCK_SIZE: 30
-
-landmark_path: './LRnet/demo/landmarks'  # Modify this if you change the root address of the dataset.
-
-add_weights: './LRnet/demo/model_weights'
-weights_name_g1: 'g1.pth'
-weights_name_g2: 'g2.pth'
