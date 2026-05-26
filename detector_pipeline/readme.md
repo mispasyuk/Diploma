@@ -16,7 +16,7 @@ All these models are trained on dataset, containing real videos (hd, full hd), c
 
 ## Quick start
 ```bash
-git clone [URL_репозитория]
+git clone https://github.com/mispasyuk/Diploma.git
 ```
 
 ## Requirements
