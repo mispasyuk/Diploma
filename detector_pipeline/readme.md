@@ -24,4 +24,11 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Paths
+
+## Run detector
+To run detectoe to know if a video is fake or real try command:
+```bash
 python main.py
+```
