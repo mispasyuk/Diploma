@@ -17,6 +17,10 @@ This deepfake detector consists of three detection models: a trained ResNet50+LS
 ```bash
 git clone [URL_репозитория]
 python -m venv venv
-source venv/bin/activate  
+source venv/bin/activate
+```bash
+##Requirements
+```bash
 pip install -r requirements.txt
+```bash
 python main.py
