@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## Paths
-Open config.py and write your paths. The weights of the trained models are not posted in this repository, as they are confidential information.
+Open config.py and write your paths. The weights of the trained models are not posted in this repository, as they are confidential information. New weights for LRNet, trained on private dataset, are also not posted, but original weights are available.
 - WEIGHTS_PATH_RESNET_RGB - path to resnet+lstm model trained on new dataset (full faces)
 - WEIGHTS_PATH_RESNET_EYES - path to resnet+lstm model trained on new dataset (eyes)
 - PREDICTOR_PATH - path to model that extracts 68 facial landmarks
