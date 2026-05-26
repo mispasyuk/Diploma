@@ -17,8 +17,6 @@ All these models are trained on dataset, containing real videos (hd, full hd), c
 ## Quick start
 ```bash
 git clone [URL_репозитория]
-python -m venv venv
-source venv/bin/activate
 ```
 
 ## Requirements
