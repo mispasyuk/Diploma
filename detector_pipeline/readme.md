@@ -33,7 +33,8 @@ Open config.py and write your paths. The weights of the trained models are not p
 - EXTRACTOR_PATH - path to model that extracts frames with faces from input video
 - VIDEO_FRAMES_DIR - path to the folder where the extracted video frames are saved
 - FRAMES_DIR - path to the folder is one level higher than the folder with frames (for eyes extraction)
-- EYE_OUTPUT_DIR - path to the folder where the frames with the eyes are saved
+- EYE_OUTPUT_DIR - path to the folder where the frames with the eyes are saved (one level higher than EYE_DIR)
+- EYE_DIR - path to the folder  where the frames for the eye model come from
 - VIDEO_DIR - path to the input video 
 
 ## Run detector
