@@ -26,9 +26,18 @@ pip install -r requirements.txt
 ```
 
 ## Paths
+Open config.py and write your paths. The weights of the trained models are not posted in this repository, as they are confidential information.
+- WEIGHTS_PATH_RESNET_RGB - path to resnet+lstm model trained on new dataset (full faces)
+- WEIGHTS_PATH_RESNET_EYES - path to resnet+lstm model trained on new dataset (eyes)
+- PREDICTOR_PATH - path to model that extracts 68 facial landmarks
+- EXTRACTOR_PATH - path to model that extracts frames with faces from input video
+- VIDEO_FRAMES_DIR - path to the folder where the extracted video frames are saved
+- FRAMES_DIR - path to the folder is one level higher than the folder with frames (for eyes extraction)
+- EYE_OUTPUT_DIR - path to the folder where the frames with the eyes are saved
+- VIDEO_DIR - path to the input video 
 
 ## Run detector
-To run detectoe to know if a video is fake or real try command:
+To run detector to know if a video is fake or real, try command:
 ```bash
 python main.py
 ```
